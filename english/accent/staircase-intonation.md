@@ -43,7 +43,7 @@
     - What **would** you like? He has rejected several things and a little unhappy.
     - **What** would you like? You didn't hear or can't believe it.
 
-10. Reading with Staircase Intonation
+10. Reading with Staircase Intonation  
 **He**llo, **my** name is Elie. I'm taking American **Accent** Training. There's  
 a **lot** to learn, but I **hope** to make it as **enjoyable** as possible. I  
 should pick **up** on the American **intonation** pattern pretty **easily**,  
