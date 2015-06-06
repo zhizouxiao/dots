@@ -54,3 +54,11 @@ I've been **talking** to a lot of **Americans** lately, and they tell me that I'
 **easier** to under**stand**. **Any**way, I could go **on** and on, but the **important** thing  
 is to **listen** well and sound **good**. Well, what do you **think**? **Do** I?  
 
+11. Spelling and Numbers, stress last letter.  
+    - IB**M** MI**T** I**Q**
+    - 21**3** 55**5**-913**2**
+
+12. Syllable Stress  
+    words that end in a vowel or a voiced consonant will be longer than ones ending in an unvoiced consonant.  
+
+13.
