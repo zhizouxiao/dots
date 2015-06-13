@@ -6,7 +6,7 @@ import time
 before = time.time()
 i = 0
 a = 0
-while i<10000000000:
+while i<1000000000:
     i = i + 1
     a = a + i
 
