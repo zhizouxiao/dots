@@ -14,3 +14,5 @@ intonation 语调
 
 3. Wavering Intonation
 ![waversing intonation from Master the American Accent pdf](http://github.com/zhizouxiao/dots/raw/master/english/accent/wavering-intonation.png)  
+
+ ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
