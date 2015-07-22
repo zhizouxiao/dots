@@ -1,6 +1,8 @@
 1. voiced and voiceless
     - voiced: /b/, /d/, /g/, /v/, /m/, /n/, / r/, /l/, /z/, /ʤ/, /y/, and /ð/
+    long, double stairstep
     - voiceless: /p/, /t/, / k/, /f/, /s/, /ʃ/, /tʃ/, and /θ/
+    short, one stairstep
 
 2. t
     - the held t, don't release. ex: cut state out present budget list absent met.

@@ -1,6 +1,9 @@
-1. Linking Consonant to Vowel
+1. Linking Consonant to Vowel: Words conneced. ex:
+![linking-1 from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/linking/linking-101.png)  
 ![linking-1 from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/linking/linking-1.png)  
+
 2. Linking Consonant to Same Consonant
+![linking-2 from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/linking/linking-201.png)  
 ![linking-2 from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/linking/linking-2.png)  
 3. Final Stop Between Consonants, when a stop is followed by another consonant, do not release the stop.
     : help me/ good time

@@ -25,12 +25,23 @@ ex: parking lot; parking ticket; parking meter
             f. indefinite pronouns - one, some, any, anywhere, somewhere, anything, something, etc.
         4. exception. auxiliary verbs are stressed in their negative forms. ex:I can’t do it.He shouldn’t try it. I wouldn’t like it.
 9. Weak Form
-    - to becomes /tɘ/. ex: I’d like to go.
+    - to becomes /tɘ/. ex: 
+        1. I’d like to go.
+        2. today/ tonight/ tomorrow
+        3. to work/ to school/ 
+    - to -> /dɘ/. ex:
+        1. He told me to help.
+        2. She told you to get it.
+        3. I go to work.
     - and becomes /n/. ex: in ‘n’ out
     - for becomes /fɘr/. ex: Let’s go for a walk.
-    - can becomes /kɘn/. ex:  I can do it.
+    - can becomes /kɘn/ /k'n/. ex:  I can do it.
     - as becomes /ɘz/. ex: It’s as big as a house.
     - or becomes /ɘr/. ex: Is it this one or that one? 
+    - at becomes /ɘt/. ex: 
+        1. He's at home.
+        2. I'll see you at lunch.
+    - 
 
 10. Strong Form
     - When the function word is at the end of the sentence, or if it’s used for emphasis, make sure you use the “strong form” of the word. 
