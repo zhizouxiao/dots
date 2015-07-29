@@ -48,3 +48,27 @@
     - 根据元音 ordi-nary reli-gious regu-lar
     - 双字母 Apen-nines refer-ring tell-ing
     - 音节 for-tune pic-ture
+
+9. 一段一个主题
+在写完一段后，要检查是否可以拆分为多段。
+一个subject 需要分为多个topics, 每个topic一段。
+
+10. 每一段开头概括主题，结尾呼应主题。
+
+11. 使用主动
+    - I shall always remember my first visit to Bostion. 更好
+    - My first visit to Boston will always be remembered by me.
+
+12. 明确的论断
+    - He was not very often on time. vs He usually came late.
+    - not honset vs dishonest
+    - not important vs trifling
+    - not remember vs forget
+
+13. 去掉可有可无的词
+    - there is no doubt but that  vs no doubt (doubtless)
+    - used for fuel purposes  vs used for fuel
+    - in a hasty manner vs hastily
+
+14. 
+
