@@ -7,10 +7,15 @@ ex: parking lot; parking ticket; parking meter
     the most stress. ex: big blue bus; really nice day; short black hair
 
 3. Compound Nouns Containing Adjectives. ex:1. White House 2. greenhouse 3. hot dog
+
 4. Phrasal Verbs. the stress is on the last word. ex: pick up; put out.
+
 5. Noun Forms of Phrasal Verbs.  the stress is on the first word. ex: workout; letdown.
+
 6. Abbreviations and Numbers. Always stress the last letter or the last number.  ex: MBA; 1997.
+
 7. Names of Places and People. stress the last word. ex: New York; George Washington;
+
 8. Word Stress Within a Sentence
     - Lengthening the Main Vowel in Stressed Words. ex: I got it.
     - Which Words Should I Stress?

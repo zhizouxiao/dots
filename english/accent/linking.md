@@ -21,6 +21,7 @@
 ![linking-4 from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/linking/linking-4.png)  
 
 7. Reducing Pronouns
+them - em him - im
 
 ![linking-5 from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/linking/linking-5.png)  
 8. Contractions
