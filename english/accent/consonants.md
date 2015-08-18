@@ -31,7 +31,7 @@ won't you, can't you, did you, could you, would you
         2. Always hold the t when the next letter within the same word is a consonant.
         ex: football; outside; lately; nightmare; atmosphere; 
         
-    - Held t Before /n/ ex: certain; gotten; mountain; lighten; cotton; Britain; eaten; written; forgotten;
+    - Held t Before /n/ and don't pronounce vowal ex: certain; gotten; mountain; lighten; cotton; Britain; eaten; written; forgotten;
     - Slient t After n ex: internet; interview; 
     - t becomes a “fast /d/”, if it's not in a stressed syllable.
         1. Between two vowels. ex: better, metal, auto, water
@@ -39,7 +39,6 @@ won't you, can't you, did you, could you, would you
         3. After an “r” and a vowel ex:party
         4. Between two words ex: it is; get up; try it on; eat out; at eleven; wait a minute; what if; put it off; get in or get out; bought it; what a nice day;
 
-   - written; mountain; batten; certain; buttons; forgotten; Britain: hold the t, and don't pronounce vowal
    
 3. word ending with -ed
     - If the last letter of the word is spelled with a d or a t, the ed is pronounced as /Id/ and as a separate syllable.
@@ -91,8 +90,8 @@ won't you, can't you, did you, could you, would you
     - dis- /s/ ex: disagree, disorder
     - Verbs /z/ and Nouns /s/ ex: use
  
-9. m, v 连续音
-p, b stop
+9. m, v 连续音  
+p, b stop  
 pop music/ had this/ job market: hold the stop 
 
 
