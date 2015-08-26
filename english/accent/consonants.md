@@ -94,4 +94,12 @@ won't you, can't you, did you, could you, would you
 p, b stop  
 pop music/ had this/ job market: hold the stop 
 
+10. /tʃr/ travel turkey tradition introduce translate traffic turn terrific extremely interest
+11. /dʒr/ drink drop address children dream drama cathedral hundred laundry syndrome
+12. /dʒ/ d + y and du
+    - gradual education schedule graduation individual procedure 
+    - did you? Could you? Should you? Would you?
+13. /tʃ/ t + y and tu
+    - actually ritual virtual statue nature picture adventure
+    - Don't you? Can't you? Won't you? Aren't you?
 
