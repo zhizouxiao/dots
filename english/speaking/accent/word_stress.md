@@ -46,7 +46,6 @@ ex: parking lot; parking ticket; parking meter
     - at becomes /ɘt/. ex: 
         1. He's at home.
         2. I'll see you at lunch.
-    - 
 
 10. Strong Form
     - When the function word is at the end of the sentence, or if it’s used for emphasis, make sure you use the “strong form” of the word. 

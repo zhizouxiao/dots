@@ -13,4 +13,4 @@ intonation 语调
     - Expressing Choices, up, down : Do you want to eat in or eat out?
 
 3. Wavering Intonation
-![waversing intonation from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/accent/wavering-intonation.png)  
+![waversing intonation from Master the American Accent pdf](https://github.com/zhizouxiao/dots/raw/master/english/speaking/accent/wavering-intonation.png)  
