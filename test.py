@@ -2,28 +2,31 @@ from flask import Flask
 
 import time
 import socket
-from gevent.pywsgi import WSGIServer, WSGIHandler
+from gevent.pywsgi import WSGIHandler
 import traceback
 import errno
 import sys
 
 MAX_REQUEST_LINE = 8192
-_REQUEST_TOO_LONG_RESPONSE = "HTTP/1.1 414 Request URI Too Long\r\nConnection: close\r\nContent-length: 0\r\n\r\n"
-_BAD_REQUEST_RESPONSE = "HTTP/1.1 400 Bad Request\r\nConnection: close\r\nContent-length: 0\r\n\r\n"
+REQUEST_TOO_LONG_RESPONSE = "HTTP/1.1 414 Request URI Too Long\r \
+\nConnection: close\r\nContent-length: 0\r\n\r\n"
+BAD_REQUEST_RESPONSE = "HTTP/1.1 400 Bad Request\r\nConnection: close \
+\r\nContent-length: 0\r\n\r\n"
 
 
 app = Flask(__name__)
 app.debug = True
 
+
 @app.route("/", methods=["GET"])
 def poll():
-    #i = 0
-    #while True:
-        #i += 1
     return "hello"
 
+
 class MyHandler(WSGIHandler):
+
     """docstring for MyHandler"""
+
     def handle(self):
         """docstring for hander"""
         print("handle=================", self.socket)
@@ -46,22 +49,26 @@ class MyHandler(WSGIHandler):
         finally:
             if self.socket is not None:
                 try:
-                    # read out request data to prevent error: [Errno 104] Connection reset by peer
+                    # read out request data to prevent error: [Errno 104]
+                    # Connection reset by peer
                     try:
                         print("heeeeeeeeeeeee1")
                         self.socket._sock.recv(16384)
                         print("heeeeeeeeeeeee2")
                     finally:
                         print("heeeeeeeeeeeee3")
-                        self.socket._sock.close()  # do not rely on garbage collection
+                        # do not rely on garbage collection
+                        self.socket._sock.close()
                         self.socket.close()
                 except socket.error:
                     pass
             self.__dict__.pop('socket', None)
             self.__dict__.pop('rfile', None)
 
-
     def handle_one_request(self):
+        """
+        doc
+        """
         if self.rfile.closed:
             return
         try:
@@ -69,7 +76,6 @@ class MyHandler(WSGIHandler):
             self.requestline = self.read_requestline()
             print("handle_one_request============2", self.requestline)
         except socket.error:
-            # "Connection reset by peer" or other socket errors aren't interesting here
             return
 
         if not self.requestline:
@@ -78,18 +84,21 @@ class MyHandler(WSGIHandler):
         self.response_length = 0
 
         if len(self.requestline) >= MAX_REQUEST_LINE:
-            return ('414', _REQUEST_TOO_LONG_RESPONSE)
+            return ('414', REQUEST_TOO_LONG_RESPONSE)
 
         try:
-            # for compatibility with older versions of pywsgi, we pass self.requestline as an argument there
+            # for compatibility with older versions of pywsgi, we pass
+            # self.requestline as an argument there
             if not self.read_request(self.requestline):
-                return ('400', _BAD_REQUEST_RESPONSE)
+                return ('400', BAD_REQUEST_RESPONSE)
         except Exception:
             ex = sys.exc_info()[1]
             if not isinstance(ex, ValueError):
                 traceback.print_exc()
-            self.log_error('Invalid request: %s', str(ex) or ex.__class__.__name__)
-            return ('400', _BAD_REQUEST_RESPONSE)
+            self.log_error(
+                'Invalid request: %s',
+                str(ex) or ex.__class__.__name__)
+            return ('400', BAD_REQUEST_RESPONSE)
 
         self.environ = self.get_environ()
         self.application = self.server.application
@@ -111,6 +120,7 @@ class MyHandler(WSGIHandler):
             return
 
         return True  # read more requests
+
     def run_application(self):
         self.result = self.application(self.environ, self.start_response)
         self.process_result()
@@ -184,10 +194,15 @@ class MyHandler(WSGIHandler):
 
         self.content_length = content_length
 
-        print("request_version", self.request_version, self.headers.get("Connection", "").lower())
+        print(
+            "request_version",
+            self.request_version,
+            self.headers.get(
+                "Connection",
+                "").lower())
         if self.request_version == "HTTP/1.1":
             conntype = self.headers.get("Connection", "").lower()
-            if conntype and conntype=="keep-alive":
+            if conntype and conntype == "keep-alive":
                 self.close_connection = False
             else:
                 self.close_connection = True
@@ -197,15 +212,11 @@ class MyHandler(WSGIHandler):
         return True
 
 if __name__ == "__main__":
-    #http = WSGIServer(('', 5000), app, handler_class=MyHandler)
-    #print(type(http))
-    #http.serve_forever()
     try:
         a = 1/0
-    except Exception, e:
+    except Exception as e:
         print("1", e)
-    except IOError, e:
+    except IOError as e:
         print("IOError", e)
     except:
         print("last")
-
